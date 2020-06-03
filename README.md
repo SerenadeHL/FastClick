@@ -2,13 +2,13 @@
 ## 使用
 ### 1. 项目build.gradle
 ```gradle
-buildscript	{
-		repositories {
+buildscript {
+    repositories {
         ...
         maven { url 'https://jitpack.io' }
     }
- 		dependencies {
- 				...
+    dependencies {
+    	...
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10'
     }
 }
@@ -24,14 +24,14 @@ allprojects {
 ...
 apply plugin: 'android-aspectjx'
 android {
-		...
-		compileOptions {
+    ...
+    compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 dependencies {
-		...
+    ...
     implementation 'com.github.SerenadeHL:ApkInstaller:1.0.1'
 }
 ```
