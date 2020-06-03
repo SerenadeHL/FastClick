@@ -14,7 +14,7 @@ import org.aspectj.lang.reflect.MethodSignature
  * 创建时间：2020-05-24 22:30:31
  */
 @Aspect
-class FastClickAspect {
+internal class FastClickAspect {
     /**
      * 存储方法的上次点击时间
      *  eg:  key = hashcode
