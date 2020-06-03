@@ -32,7 +32,7 @@ android {
 }
 dependencies {
     ...
-    implementation 'com.github.SerenadeHL:ApkInstaller:1.0.1'
+    implementation 'com.github.SerenadeHL:FastClick:1.0.0'
 }
 ```
 ### 3.使用
